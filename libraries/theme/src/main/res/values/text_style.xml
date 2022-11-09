@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleDefaultTextDark">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:fontFamily">@font/merriweather_sans_bold</item>
+    </style>
+
+    <style name="DescriptionDefaultTextDark">
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:fontFamily">@font/merriweather_sans_regular</item>
+    </style>
+
+    <style name="DescriptionDefaultTextDarkLarge">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:fontFamily">@font/merriweather_sans_regular</item>
+    </style>
+
+    <style name="PurchaseTitle" parent="TitleDefaultTextDark">
+        <item name="android:maxLength">60</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lineSpacingExtra">@dimen/line_space_4</item>
+    </style>
+
+    <style name="PurchaseItemCount">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:fontFamily">@font/merriweather_sans_semi_bold</item>
+    </style>
+
+    <style name="PurchaseItemDate">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:fontFamily">@font/merriweather_sans_medium</item>
+    </style>
+
+    <style name="PurchaseValue" parent="TitleDefaultTextDark">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@dimen/default_size_4</item>
+    </style>
+
+    <style name="TextInputPurchaseTitle">
+        <item name="android:background">@drawable/bkg_input_text_curved</item>
+        <item name="android:fontFamily">@font/merriweather_sans_extra_bold</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="maxLines">1</item>
+        <item name="android:maxLength">64</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/default_size_48</item>
+        <item name="android:gravity">center</item>
+        <item name="paddingEnd">@dimen/default_size_16</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+
+    <style name="TextViewPurchaseTitle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fontFamily">@font/merriweather_sans_extra_bold</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="maxLines">1</item>
+        <item name="android:maxLength">64</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/default_size_48</item>
+        <item name="android:drawableStart">@drawable/ic_shopping_cart</item>
+        <item name="android:gravity">center</item>
+        <item name="paddingEnd">@dimen/default_size_16</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+
+    <style name="TextDefaultTitle">
+        <item name="android:background">@drawable/bkg_input_text_curved</item>
+        <item name="android:fontFamily">@font/merriweather_sans_extra_bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+
+    <style name="inPutEditTextCustomOtLineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintAnimationEnabled">true</item>
+        <item name="android:textColorHint">?attr/OutlineHintColor</item>
+        <item name="hintTextColor">?attr/BoxOutlineColor</item>
+        <item name="boxStrokeColor">@drawable/bkg_stroke_outiline</item>
+        <item name="boxBackgroundColor">?attr/BoxOutlineColor</item>
+        <item name="placeholderTextColor">@color/purple_200</item>
+    </style>
+
+    <style name="TextQuantityLabel" parent="TitleDefaultTextDark">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextValueLabel" parent="TitleDefaultTextDark">
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="TextSelectValueLabel" parent="TitleDefaultTextDark">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="TextSelectValuesLabel" parent="TitleDefaultTextDark">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:background">@drawable/bkg_text_view_outline</item>
+    </style>
+
+    <style name="CVProgressPurchaseText" parent="TitleDefaultTextDark">
+        <item name="android:textSize">@dimen/text_size_9</item>
+        <item name="android:fontFamily">@font/merriweather_sans_bold</item>
+    </style>
+</resources>

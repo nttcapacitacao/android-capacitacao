@@ -1,0 +1,103 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.NTTKnowleged" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_color_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+
+        <!--Background colors-->
+        <item name="screenBackgroundColor">@drawable/bkg_screen_dark</item>
+        <item name="dividerItemsColor">#3E4A4A51</item>
+        <item name="bkgInputSearchColor">@color/gray_black_light</item>
+        <item name="CardBackground">@color/card_background_dark</item>
+        <item name="BottomSheetBackground">@color/gray_black_90</item>
+
+        <!--Text base-->
+        <item name="ButtonTextColor">@color/text_white</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="BoxOutlineColor">@color/white</item>
+        <item name="OutlineHintColor">@color/hint_color</item>
+
+    </style>
+
+    <style name="Theme.MyShoppingLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_color_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+
+        <!--Background colors-->
+        <item name="screenBackgroundColor">@color/white</item>
+        <item name="dividerItemsColor">#ECECEC</item>
+        <item name="bkgInputSearchColor">@color/white_bkg_input</item>
+        <item name="CardBackground">@color/card_background_ligth</item>
+        <item name="BottomSheetBackground">@color/card_background_ligth</item>
+
+        <!--Text base-->
+        <item name="ButtonTextColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/light_hint_color</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="BoxOutlineColor">@color/black</item>
+        <item name="OutlineHintColor">@color/hint_color</item>
+    </style>
+
+    <!--backgrounds-->
+    <attr name="bkgInputSearchColor" format="reference" />
+    <attr name="screenBackgroundColor" format="reference" />
+    <attr name="dividerItemsColor" format="color" />
+    <attr name="CardBackground" format="reference" />
+    <attr name="BottomSheetBackground" format="reference" />
+
+    <!--Text Styles-->
+    <attr name="BoxOutlineColor" format="color" />
+    <attr name="OutlineHintColor" format="color" />
+    <attr name="ButtonTextColor" format="color"/>
+
+    <!--Bottom sheet-->
+    <style name="CustomBottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheet</item>
+        <item name="android:backgroundTint">?attr/BottomSheetBackground</item>
+    </style>
+
+    <style name="CustomBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>
+    </style>
+
+    <style name="CustomShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="Widget.App.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CheckBox</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CheckBox" parent="">
+        <item name="colorOnSurface">@color/light_hint_color</item>
+        <item name="colorSecondary">@color/green_strong</item>
+    </style>
+
+</resources>

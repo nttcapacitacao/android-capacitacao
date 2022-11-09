@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral() // Warning: this repository is going to shut down soon
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "NTT DATA Knowleged"
+include ':app'
+include 'libraries:core'
+include 'libraries:theme'
+include ':libraries:di'
+include ':common:utils'
+include ':libraries:customviews'

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_account_register_email_is_not_valid">digite um e-mail válido</string>
+    <string name="calendar_month_hour_formatted">%02d de %s às %02d:%02d</string>
+    <string name="calendar_in_progress">em andamento</string>
+    <string name="calendar_same_day_formatted">hoje às %02d:%02d</string>
+    <string name="calendar_day_before_formatted">encerrado %02d de %s</string>
+    <string name="calendar_day_tomorrow_formatted">amanhã às %02d:%02d</string>
+    <string name="notification_channel_match_schedule">Alertas de partidas</string>
+    <string name="notification_channel_match_schedule_desc">Notificações para lembretes de partidas.</string>
+
+    <!--Purchase-->
+    <string name="purchase_label_qtd">Qtd: %s</string>
+
+
+
+
+    <string name="items_mercearia_description">produtos de grande consumo, sobretudo alimentos, podendo complementar a oferta com produtos de higiene, bebidas e objetos de uso doméstico</string>
+    <string-array name="items_mercearia">
+        <item>A</item>
+        <item>Arroz</item>
+        <item>Feijão</item>
+        <item>Óleo</item>
+        <item>Azeite</item>
+        <item>Vinagre</item>
+        <item>Açúcar</item>
+        <item>Milho</item>
+        <item>Milho para pipoca</item>
+        <item>Farinha de trigo</item>
+        <item>Fermento em pó</item>
+        <item>Aveia</item>
+        <item>Cereais</item>
+        <item>Amido de milho</item>
+        <item>Farinha de mandioca</item>
+        <item>Extrato de tomate</item>
+        <item>Macarrão</item>
+        <item>Queijo ralado</item>
+        <item>Enlatados</item>
+        <item>Conservas</item>
+        <item>Bolachas</item>
+        <item>Petiscos</item>
+        <item>Pães</item>
+        <item>Maionese</item>
+        <item>Ketchup</item>
+        <item>Mostarda</item>
+        <item>Frios</item>
+        <item>Manteiga</item>
+        <item>Requeijão</item>
+        <item>Geleias</item>
+        <item>Mel</item>
+        <item>Sal</item>
+        <item>Temperos</item>
+        <item>Especiarias</item>
+    </string-array>
+
+    <string-array name="items_feira">
+        <item>A</item>
+        <item>Ovos</item>
+        <item>Verduras</item>
+        <item>Legumes</item>
+        <item>Vegetais</item>
+        <item>variados</item>
+        <item>Frutas</item>
+        <item>Cebola</item>
+        <item>Alho</item>
+        <item>Ervas</item>
+        <item>Temperos</item>
+    </string-array>
+
+    <string-array name="items_acougue">
+        <item>A</item>
+        <item>Bifes</item>
+        <item>Carne moída</item>
+        <item>Carne de frango</item>
+        <item>Filés de peixes</item>
+        <item>Bacon</item>
+        <item>Hambúrgueres</item>
+        <item>Linguiças</item>
+        <item>Salsichas</item>
+    </string-array>
+
+    <string-array name="items_drinks">
+        <item>A</item>
+        <item>Café</item>
+        <item>Chás</item>
+        <item>Sucos</item>
+        <item>Iogurtes</item>
+        <item>Leite</item>
+        <item>Achocolatado</item>
+        <item>Água mineral</item>
+        <item>Refrigerantes</item>
+        <item>Bebidas alcoólicas</item>
+    </string-array>
+
+    <string-array name="items_personal_clean">
+        <item>A</item>
+        <item>Shampoo</item>
+        <item>Condicionador</item>
+        <item>Sabonetes</item>
+        <item>Sabonete</item>
+        <item>Sabonete líquido</item>
+        <item>Cotonetes</item>
+        <item>Algodão</item>
+        <item>Papel higiênico</item>
+        <item>Pasta de dente</item>
+        <item>Escova de dente</item>
+        <item>Fio dental</item>
+        <item>Antisséptico bucal</item>
+        <item>Porta escova de dentes</item>
+        <item>Saboneteira</item>
+        <item>Esponja para banho</item>
+        <item>Desodorante</item>
+        <item>Curativos</item>
+    </string-array>
+
+    <string-array name="item_house_clean">
+        <item>A</item>
+        <item>Detergente</item>
+        <item>Desengordurante</item>
+        <item>Esponja para louça</item>
+        <item>Palha de aço</item>
+        <item>Escova de limpeza</item>
+        <item>Sabão em barra</item>
+        <item>Balde e bacia</item>
+        <item>Rodo</item>
+        <item>Vassoura</item>
+        <item>Panos de limpeza</item>
+        <item>Flanelas</item>
+        <item>Sabão em pó</item>
+        <item>Sabão líquido</item>
+        <item>Amaciante</item>
+        <item>Água sanitária</item>
+        <item>Cesto para roupas</item>
+        <item>Lixeira</item>
+        <item>Lixeira para banheiro</item>
+        <item>Escova sanitária</item>
+        <item>Sacos de lixo</item>
+        <item>Desinfetante</item>
+        <item>Limpa vidros</item>
+        <item>Limpa piso</item>
+        <item>Limpador multiuso</item>
+        <item>Álcool</item>
+        <item>Lustrador de móveis</item>
+    </string-array>
+</resources>

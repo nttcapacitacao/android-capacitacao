@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NTT DATA Knowleged</string>
+
+    <!--purchase-->
+    <string name="purchase_title">Lista de compras\n%s</string>
+    <string name="purchase_quantity">%d itens</string>
+    <string name="purchase_value">Valor\n %s</string>
+    <string name="purchase_new">nova compra</string>
+    <string name="purchase_total_value">Valor total: </string>
+    <string name="purchase_total_items">Total de items: %s</string>
+    <string name="purchase_search_item">procurar</string>
+    <string name="fab_create_purchase">criar lista</string>
+    <string name="purchase_empty_list">Ops! você ainda não possui listas de compras</string>
+    <string name="purchase_new_list_hint">nome da lista:</string>
+    <string name="purchase_created_at">Criada em\n%s</string>
+    <string name="purchase_quantity_label">x %s</string>
+    <string name="purchase_select_value_list">Selecione o valor correto</string>
+    <string name="purchase_select_value_buttom_reload">recarregar</string>
+    <string name="purchase_add_item_button">Adicionar</string>
+
+    <string name="camera_permission_not_ok">Permissão de camera não concedida :(</string>
+</resources>
