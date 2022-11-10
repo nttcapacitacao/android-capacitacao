@@ -35,7 +35,7 @@ data class ObjectResponse(
   @SerializedName("code") val code: String?,
   @SerializedName("title") val title: String?,
   @SerializedName("timer") val timer: Long?,
-  @SerializedName("options") val options: FeedBackOptionsResponse?
+  @SerializedName("options") val options: ObjectOptionsResponse?
 )
 </code>
 </pre>
