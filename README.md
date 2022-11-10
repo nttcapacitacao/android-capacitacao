@@ -17,7 +17,7 @@
   <summary><b>API</b></summary>
     <p>Objetos de request</p>
     <code>
-        FeedBackOptionsRequest(
+        ObjectRequest(
             @SerializedName("id") val id: String?,
             @SerializedName("code") val code: String?,
             @SerializedName("action") val action: String?,
@@ -27,7 +27,7 @@
     </code>
     <p>Objetos de response</p>
     <code>
-        data class FeedBackResponse(
+        data class ObjectResponse(
           @SerializedName("id") val id: String?,
           @SerializedName("code") val code: String?,
           @SerializedName("title") val title: String?,
@@ -38,37 +38,37 @@
     <p>Objetos de negócios BO</p>
     <code>
         @Parcelize
-        data class FeedBackConsentBO(
+        data class ObjectBO(
             val id: String,
             val code: String,
             val title: String,
             val timer: Long,
-            val options: FeedbackOptionsBO
+            val options: ObjectOptionsBO
         ) : Parcelable
     </code>
     <p>Objetos de view VO</p>
     <code>
         @Parcelize
-        data class FeedBackAskVO(
+        data class ObjectVO(
             val title: String,
-            val options: FeedbackAskOptionsVO
+            val options: ObjectOptionsVO
         ) : Parcelable
     </code>
     <p>Mapper de response para BO</p>
     <code>
-        fun toFeedBackConsentBO(): FeedBackAskBO {
-          return FeedBackAskBO(
+        fun toObjectBO(): ObjectBO {
+          return ObjectBO(
               title = title,
-              options = options.toFeedbackAskOptionsBO()
+              options = options.toObjectBO()
           )
         }
     </code>
     <p>Mapper de BO para VO</p>
     <code>
-        fun toFeedBackConsentVO(): FeedBackAskVO {
-          return FeedBackAskVO(
+        fun toObjectVO(): ObjectVO {
+          return ObjectVO(
               title = title,
-              options = options.toFeedbackAskOptionsVO()
+              options = options.toObjectVO()
           )
         }
     </code>
