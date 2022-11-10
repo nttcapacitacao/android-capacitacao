@@ -28,6 +28,7 @@ ObjectRequest(
 </code>
 </pre>
 <p>Objetos de response</p>
+<pre>
 <code>
 data class ObjectResponse(
   @SerializedName("id") val id: String?,
@@ -37,7 +38,9 @@ data class ObjectResponse(
   @SerializedName("options") val options: FeedBackOptionsResponse?
 )
 </code>
+</pre>
 <p>Objetos de negócios BO</p>
+<pre>
 <code>
 @Parcelize
 data class ObjectBO(
@@ -48,7 +51,9 @@ data class ObjectBO(
   val options: ObjectOptionsBO
 ) : Parcelable
 </code>
+</pre>
 <p>Objetos de view VO</p>
+<pre>
 <code>
 @Parcelize
 data class ObjectVO(
@@ -56,7 +61,9 @@ data class ObjectVO(
   val options: ObjectOptionsVO
 ) : Parcelable
 </code>
+</pre>
 <p>Mapper de response para BO</p>
+<pre>
 <code>
 fun toObjectBO(): ObjectBO {
 return ObjectBO(
@@ -65,7 +72,9 @@ return ObjectBO(
 )
 }
 </code>
+</pre>
 <p>Mapper de BO para VO</p>
+<pre>
 <code>
 fun toObjectVO(): ObjectVO {
 return ObjectVO(
@@ -74,6 +83,7 @@ return ObjectVO(
 )
 }
 </code>
+</pre>
 </details>
 
 <details>
