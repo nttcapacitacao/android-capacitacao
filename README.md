@@ -66,10 +66,10 @@ data class ObjectVO(
 <pre>
 <code>
 fun toObjectBO(): ObjectBO {
-return ObjectBO(
-    title = title,
-    options = options.toObjectBO()
-)
+    return ObjectBO(
+        title = title,
+        options = options.toObjectBO()
+    )
 }
 </code>
 </pre>
@@ -77,10 +77,10 @@ return ObjectBO(
 <pre>
 <code>
 fun toObjectVO(): ObjectVO {
-return ObjectVO(
-    title = title,
-    options = options.toObjectVO()
-)
+    return ObjectVO(
+        title = title,
+        options = options.toObjectVO()
+    )
 }
 </code>
 </pre>
